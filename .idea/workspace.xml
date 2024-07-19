@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Car_v2" targetName="Car_v2.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="RelWithDebInfo" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/RelWithDebInfo" />
+      <configuration PROFILE_NAME="Release" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/Release" />
+      <configuration PROFILE_NAME="MinSizeRel" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/MinSizeRel" />
+      <configuration PROFILE_NAME="Debug - Debug" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/Debug" />
+      <configuration PROFILE_NAME="RelWithDebInfo - RelWithDebInfo" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/RelWithDebInfo" />
+      <configuration PROFILE_NAME="Release - Release" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/Release" />
+      <configuration PROFILE_NAME="MinSizeRel - MinSizeRel" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/MinSizeRel" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11735f61-957a-4bed-bd12-72f1e7cb55d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="159" />
+        <option value="0" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="Name" />
+        <option value="Value" />
+        <option value="Description" />
+      </list>
+    </option>
+    <option name="loadedFiles">
+      <list>
+        <option value="$USER_HOME$/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/SVD/STM32F103xx.svd" />
+      </list>
+    </option>
+    <option name="nodes">
+      <map>
+        <entry key="STM32F103xx.svd" value="-E" />
+        <entry key="STM32F103xx.svd|g:ADC" value="-C" />
+        <entry key="STM32F103xx.svd|g:DMA" value="-C" />
+        <entry key="STM32F103xx.svd|g:GPIO" value="-C" />
+        <entry key="STM32F103xx.svd|g:I2C" value="-C" />
+        <entry key="STM32F103xx.svd|g:SPI" value="-C" />
+        <entry key="STM32F103xx.svd|g:TIM" value="-E" />
+        <entry key="STM32F103xx.svd|g:USART" value="-C" />
+        <entry key="STM32F103xx.svd|p:ADC1" value="-C" />
+        <entry key="STM32F103xx.svd|p:ADC1|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|HTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|JDR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|JDR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|JDR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|JDR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|JOFR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|JOFR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|JOFR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|JOFR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|JSQR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|LTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|SMPR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|SMPR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|SQR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|SQR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|SQR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC1|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2" value="-C" />
+        <entry key="STM32F103xx.svd|p:ADC2|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|HTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|JDR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|JDR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|JDR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|JDR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|JOFR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|JOFR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|JOFR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|JOFR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|JSQR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|LTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|SMPR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|SMPR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|SQR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|SQR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|SQR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC2|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3" value="-C" />
+        <entry key="STM32F103xx.svd|p:ADC3|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|HTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|JDR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|JDR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|JDR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|JDR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|JOFR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|JOFR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|JOFR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|JOFR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|JSQR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|LTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|SMPR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|SMPR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|SQR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|SQR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|SQR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:ADC3|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:AFIO" value="-C" />
+        <entry key="STM32F103xx.svd|p:AFIO|EVCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:AFIO|EXTICR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:AFIO|EXTICR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:AFIO|EXTICR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:AFIO|EXTICR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:AFIO|MAPR" value="HC" />
+        <entry key="STM32F103xx.svd|p:AFIO|MAPR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP" value="-C" />
+        <entry key="STM32F103xx.svd|p:BKP|CR" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|CSR" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR10" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR11" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR12" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR13" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR14" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR15" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR16" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR17" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR18" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR19" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR20" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR21" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR22" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR23" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR24" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR25" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR26" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR27" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR28" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR29" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR30" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR31" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR32" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR33" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR34" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR35" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR36" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR37" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR38" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR39" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR40" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR41" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR42" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR5" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR6" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR7" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR8" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|DR9" value="HC" />
+        <entry key="STM32F103xx.svd|p:BKP|RTCCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN" value="-C" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_BTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_ESR" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_FA1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_FFA1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_FM1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_FMR" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_FS1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_IER" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_MCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_MSR" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_RDH0R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_RDH1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_RDL0R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_RDL1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_RDT0R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_RDT1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_RF0R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_RF1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_RI0R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_RI1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TDH0R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TDH1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TDH2R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TDL0R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TDL1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TDL2R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TDT0R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TDT1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TDT2R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TI0R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TI1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TI2R" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|CAN_TSR" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F0R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F0R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F10R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F10R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F11R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F11R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F12R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F12R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F13R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F13R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F1R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F1R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F2R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F2R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F3R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F3R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F4R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F4R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F5R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F5R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F6R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F6R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F7R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F7R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F8R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F8R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F9R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:CAN|F9R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:CRC" value="-C" />
+        <entry key="STM32F103xx.svd|p:CRC|CR" value="HC" />
+        <entry key="STM32F103xx.svd|p:CRC|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:CRC|IDR" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC" value="-C" />
+        <entry key="STM32F103xx.svd|p:DAC|CR" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC|DHR12L1" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC|DHR12L2" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC|DHR12LD" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC|DHR12R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC|DHR12R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC|DHR12RD" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC|DHR8R1" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC|DHR8R2" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC|DHR8RD" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC|DOR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC|DOR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:DAC|SWTRIGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:DBG" value="-C" />
+        <entry key="STM32F103xx.svd|p:DBG|CR" value="HC" />
+        <entry key="STM32F103xx.svd|p:DBG|IDCODE" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1" value="-C" />
+        <entry key="STM32F103xx.svd|p:DMA1|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CCR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CCR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CCR5" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CCR6" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CCR7" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CMAR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CMAR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CMAR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CMAR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CMAR5" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CMAR6" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CMAR7" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CNDTR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CNDTR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CNDTR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CNDTR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CNDTR5" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CNDTR6" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CNDTR7" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CPAR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CPAR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CPAR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CPAR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CPAR5" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CPAR6" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|CPAR7" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|IFCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA1|ISR" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2" value="-C" />
+        <entry key="STM32F103xx.svd|p:DMA2|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CCR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CCR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CCR5" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CCR6" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CCR7" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CMAR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CMAR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CMAR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CMAR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CMAR5" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CMAR6" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CMAR7" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CNDTR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CNDTR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CNDTR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CNDTR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CNDTR5" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CNDTR6" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CNDTR7" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CPAR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CPAR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CPAR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CPAR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CPAR5" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CPAR6" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|CPAR7" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|IFCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:DMA2|ISR" value="HC" />
+        <entry key="STM32F103xx.svd|p:EXTI" value="-C" />
+        <entry key="STM32F103xx.svd|p:EXTI|EMR" value="HC" />
+        <entry key="STM32F103xx.svd|p:EXTI|FTSR" value="HC" />
+        <entry key="STM32F103xx.svd|p:EXTI|IMR" value="HC" />
+        <entry key="STM32F103xx.svd|p:EXTI|PR" value="HC" />
+        <entry key="STM32F103xx.svd|p:EXTI|RTSR" value="HC" />
+        <entry key="STM32F103xx.svd|p:EXTI|SWIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:FLASH" value="-C" />
+        <entry key="STM32F103xx.svd|p:FLASH|ACR" value="HC" />
+        <entry key="STM32F103xx.svd|p:FLASH|AR" value="HC" />
+        <entry key="STM32F103xx.svd|p:FLASH|CR" value="HC" />
+        <entry key="STM32F103xx.svd|p:FLASH|KEYR" value="HC" />
+        <entry key="STM32F103xx.svd|p:FLASH|OBR" value="HC" />
+        <entry key="STM32F103xx.svd|p:FLASH|OPTKEYR" value="HC" />
+        <entry key="STM32F103xx.svd|p:FLASH|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:FLASH|WRPR" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC" value="-C" />
+        <entry key="STM32F103xx.svd|p:FSMC|BCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|BCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|BCR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|BCR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|BTR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|BTR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|BTR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|BTR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|BWTR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|BWTR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|BWTR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|BWTR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|ECCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|ECCR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|PATT2" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|PATT3" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|PATT4" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|PCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|PCR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|PCR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|PIO4" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|PMEM2" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|PMEM3" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|PMEM4" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|SR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|SR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:FSMC|SR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOA" value="-C" />
+        <entry key="STM32F103xx.svd|p:GPIOA|BRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOA|BSRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOA|CRH" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOA|CRL" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOA|IDR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOA|LCKR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOA|ODR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOB" value="-C" />
+        <entry key="STM32F103xx.svd|p:GPIOB|BRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOB|BSRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOB|CRH" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOB|CRL" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOB|IDR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOB|LCKR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOB|ODR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOC" value="-C" />
+        <entry key="STM32F103xx.svd|p:GPIOC|BRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOC|BSRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOC|CRH" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOC|CRL" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOC|IDR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOC|LCKR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOC|ODR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOD" value="-C" />
+        <entry key="STM32F103xx.svd|p:GPIOD|BRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOD|BSRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOD|CRH" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOD|CRL" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOD|IDR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOD|LCKR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOD|ODR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOE" value="-C" />
+        <entry key="STM32F103xx.svd|p:GPIOE|BRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOE|BSRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOE|CRH" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOE|CRL" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOE|IDR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOE|LCKR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOE|ODR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOF" value="-C" />
+        <entry key="STM32F103xx.svd|p:GPIOF|BRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOF|BSRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOF|CRH" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOF|CRL" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOF|IDR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOF|LCKR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOF|ODR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOG" value="-C" />
+        <entry key="STM32F103xx.svd|p:GPIOG|BRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOG|BSRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOG|CRH" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOG|CRL" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOG|IDR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOG|LCKR" value="HC" />
+        <entry key="STM32F103xx.svd|p:GPIOG|ODR" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C1" value="-C" />
+        <entry key="STM32F103xx.svd|p:I2C1|CCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C1|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C1|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C1|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C1|OAR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C1|OAR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C1|SR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C1|SR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C1|TRISE" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C2" value="-C" />
+        <entry key="STM32F103xx.svd|p:I2C2|CCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C2|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C2|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C2|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C2|OAR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C2|OAR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C2|SR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C2|SR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:I2C2|TRISE" value="HC" />
+        <entry key="STM32F103xx.svd|p:IWDG" value="-C" />
+        <entry key="STM32F103xx.svd|p:IWDG|KR" value="HC" />
+        <entry key="STM32F103xx.svd|p:IWDG|PR" value="HC" />
+        <entry key="STM32F103xx.svd|p:IWDG|RLR" value="HC" />
+        <entry key="STM32F103xx.svd|p:IWDG|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC" value="-C" />
+        <entry key="STM32F103xx.svd|p:NVIC|IABR0" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IABR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|ICER0" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|ICER1" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|ICPR0" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|ICPR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|ICTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR0" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR10" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR11" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR12" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR13" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR14" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR5" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR6" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR7" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR8" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|IPR9" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|ISER0" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|ISER1" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|ISPR0" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|ISPR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:NVIC|STIR" value="HC" />
+        <entry key="STM32F103xx.svd|p:PWR" value="-C" />
+        <entry key="STM32F103xx.svd|p:PWR|CR" value="HC" />
+        <entry key="STM32F103xx.svd|p:PWR|CSR" value="HC" />
+        <entry key="STM32F103xx.svd|p:RCC" value="-C" />
+        <entry key="STM32F103xx.svd|p:RCC|AHBENR" value="HC" />
+        <entry key="STM32F103xx.svd|p:RCC|APB1ENR" value="HC" />
+        <entry key="STM32F103xx.svd|p:RCC|APB1RSTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:RCC|APB2ENR" value="HC" />
+        <entry key="STM32F103xx.svd|p:RCC|APB2RSTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:RCC|BDCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:RCC|CFGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:RCC|CIR" value="HC" />
+        <entry key="STM32F103xx.svd|p:RCC|CR" value="HC" />
+        <entry key="STM32F103xx.svd|p:RCC|CSR" value="HC" />
+        <entry key="STM32F103xx.svd|p:RTC" value="-C" />
+        <entry key="STM32F103xx.svd|p:RTC|ALRH" value="HC" />
+        <entry key="STM32F103xx.svd|p:RTC|ALRL" value="HC" />
+        <entry key="STM32F103xx.svd|p:RTC|CNTH" value="HC" />
+        <entry key="STM32F103xx.svd|p:RTC|CNTL" value="HC" />
+        <entry key="STM32F103xx.svd|p:RTC|CRH" value="HC" />
+        <entry key="STM32F103xx.svd|p:RTC|CRL" value="HC" />
+        <entry key="STM32F103xx.svd|p:RTC|DIVH" value="HC" />
+        <entry key="STM32F103xx.svd|p:RTC|DIVL" value="HC" />
+        <entry key="STM32F103xx.svd|p:RTC|PRLH" value="HC" />
+        <entry key="STM32F103xx.svd|p:RTC|PRLL" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO" value="-C" />
+        <entry key="STM32F103xx.svd|p:SDIO|ARG" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|CLKCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|CMD" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|DCOUNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|DCTRL" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|DLEN" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|DTIMER" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|FIFO" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|FIFOCNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|ICR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|MASK" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|POWER" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|RESP2" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|RESP3" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|RESP4" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|RESPCMD" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|RESPI1" value="HC" />
+        <entry key="STM32F103xx.svd|p:SDIO|STA" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI1" value="-C" />
+        <entry key="STM32F103xx.svd|p:SPI1|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI1|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI1|CRCPR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI1|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI1|I2SCFGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI1|I2SPR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI1|RXCRCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI1|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI1|TXCRCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI2" value="-C" />
+        <entry key="STM32F103xx.svd|p:SPI2|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI2|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI2|CRCPR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI2|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI2|I2SCFGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI2|I2SPR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI2|RXCRCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI2|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI2|TXCRCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI3" value="-C" />
+        <entry key="STM32F103xx.svd|p:SPI3|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI3|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI3|CRCPR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI3|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI3|I2SCFGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI3|I2SPR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI3|RXCRCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI3|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:SPI3|TXCRCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM10" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM10|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM10|CCER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM10|CCMR1_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM10|CCMR1_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM10|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM10|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM10|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM10|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM10|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM10|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM10|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM10|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM11" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM11|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM11|CCER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM11|CCMR1_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM11|CCMR1_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM11|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM11|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM11|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM11|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM11|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM11|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM11|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM11|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM12|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|CCER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|CCMR1_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|CCMR1_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|CCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|SMCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM12|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM13" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM13|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM13|CCER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM13|CCMR1_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM13|CCMR1_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM13|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM13|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM13|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM13|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM13|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM13|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM13|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM13|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM14" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM14|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM14|CCER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM14|CCMR1_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM14|CCMR1_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM14|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM14|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM14|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM14|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM14|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM14|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM14|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM14|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|BDTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|CCER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|CCMR1_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|CCMR1_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|CCMR2_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|CCMR2_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|CCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|CCR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|CCR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|DCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|DMAR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|RCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|SMCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM1|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM2|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|CCER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|CCMR1_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|CCMR1_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|CCMR2_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|CCMR2_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|CCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|CCR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|CCR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|DCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|DMAR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|SMCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM2|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3" value="-E" />
+        <entry key="STM32F103xx.svd|p:TIM3|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|CCER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|CCMR1_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|CCMR1_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|CCMR2_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|CCMR2_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|CCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|CCR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|CCR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|DCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|DMAR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|SMCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM3|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM4|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|CCER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|CCMR1_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|CCMR1_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|CCMR2_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|CCMR2_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|CCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|CCR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|CCR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|DCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|DMAR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|SMCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM4|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM5|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|CCER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|CCMR1_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|CCMR1_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|CCMR2_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|CCMR2_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|CCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|CCR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|CCR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|DCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|DMAR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|SMCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM5|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM6" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM6|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM6|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM6|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM6|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM6|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM6|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM6|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM6|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM7" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM7|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM7|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM7|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM7|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM7|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM7|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM7|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM7|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM8|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|BDTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|CCER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|CCMR1_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|CCMR1_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|CCMR2_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|CCMR2_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|CCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|CCR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|CCR4" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|DCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|DMAR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|RCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|SMCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM8|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9" value="-C" />
+        <entry key="STM32F103xx.svd|p:TIM9|ARR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|CCER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|CCMR1_Input" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|CCMR1_Output" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|CCR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|CCR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|CNT" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|DIER" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|EGR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|PSC" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|SMCR" value="HC" />
+        <entry key="STM32F103xx.svd|p:TIM9|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:UART4" value="-C" />
+        <entry key="STM32F103xx.svd|p:UART4|BRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:UART4|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:UART4|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:UART4|CR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:UART4|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:UART4|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:UART5" value="-C" />
+        <entry key="STM32F103xx.svd|p:UART5|BRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:UART5|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:UART5|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:UART5|CR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:UART5|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:UART5|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART1" value="-C" />
+        <entry key="STM32F103xx.svd|p:USART1|BRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART1|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART1|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART1|CR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART1|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART1|GTPR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART1|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART2" value="-C" />
+        <entry key="STM32F103xx.svd|p:USART2|BRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART2|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART2|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART2|CR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART2|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART2|GTPR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART2|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART3" value="-C" />
+        <entry key="STM32F103xx.svd|p:USART3|BRR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART3|CR1" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART3|CR2" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART3|CR3" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART3|DR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART3|GTPR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USART3|SR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB" value="-E" />
+        <entry key="STM32F103xx.svd|p:USB|BTABLE" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB|CNTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB|DADDR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB|EP0R" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB|EP1R" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB|EP2R" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB|EP3R" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB|EP4R" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB|EP5R" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB|EP6R" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB|EP7R" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB|FNR" value="HC" />
+        <entry key="STM32F103xx.svd|p:USB|ISTR" value="HC" />
+        <entry key="STM32F103xx.svd|p:WWDG" value="-E" />
+        <entry key="STM32F103xx.svd|p:WWDG|CFR" value="HC" />
+        <entry key="STM32F103xx.svd|p:WWDG|CR" value="HC" />
+        <entry key="STM32F103xx.svd|p:WWDG|SR" value="HC" />
+      </map>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Middleware/Src/PID.c" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ifjI1jIAvFDxgsjRDhgivjGe02" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "CMake Application.Car_v2.elf.executor": "Run",
+    "OpenOCD Download & Run.Car_v2.elf.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/WorkSpace_Clion/Car_v2",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "structure.view.defaults.are.configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WorkSpace_Clion\Car_v2\Hardware\Inc\dmp" />
+      <recent name="E:\WorkSpace_Clion\Car_v2\Hardware\Src\dmp" />
+      <recent name="E:\WorkSpace_Clion\Car_v2\Driver\Inc" />
+      <recent name="E:\WorkSpace_Clion\Car_v2\Driver\Src" />
+      <recent name="E:\WorkSpace_Clion\Car_v2\Middleware" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WorkSpace_Clion\Car_v2\Middleware\Src\Inv_DMP" />
+      <recent name="E:\WorkSpace_Clion\Car_v2\Middleware\Inc\Inv_DMP" />
+      <recent name="E:\WorkSpace_Clion\Car_v2\Middleware\Inc" />
+      <recent name="E:\WorkSpace_Clion\Car_v2\Driver\Src" />
+      <recent name="E:\WorkSpace_Clion\Car_v2\Driver\Inc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.Car_v2.elf">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Car_v2.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car_v2" TARGET_NAME="Car_v2.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Car_v2" RUN_TARGET_NAME="Car_v2.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Car_v2.elf" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" nameIsGenerated="true" PROGRAM_PARAMS="-f interface/stling.cfg -f target/stm32f1x.cfg" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car_v2" TARGET_NAME="Car_v2.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="Car_v2" RUN_TARGET_NAME="Car_v2.elf">
+      <custom-gdb-server version="1" gdb-connect="localhost:3333" executable="E:\Development\EmbeddedToolChain\OpenOCD\bin\openocd.exe" warmup-ms="0" download-type="UPDATED_ONLY" reset-cmd="monitor reset" reset-type="AFTER_DOWNLOAD">
+        <debugger kind="GDB" isBundled="true" />
+      </custom-gdb-server>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Car_v2.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car_v2" TARGET_NAME="Car_v2.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="Car_v2" RUN_TARGET_NAME="Car_v2.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\WorkSpace_Clion\Car_v2\config\stlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Car_v2.elf" />
+      <item itemvalue="Embedded GDB Server.Car_v2.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.Car_v2.elf" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11735f61-957a-4bed-bd12-72f1e7cb55d1" name="Changes" comment="" />
+      <created>1719888441923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719888441923</updated>
+      <workItem from="1719888443286" duration="592000" />
+      <workItem from="1719889280045" duration="162000" />
+      <workItem from="1719889562110" duration="2175000" />
+      <workItem from="1719891767405" duration="3375000" />
+      <workItem from="1719902542428" duration="22862000" />
+      <workItem from="1719969245758" duration="7018000" />
+      <workItem from="1719979402443" duration="21268000" />
+      <workItem from="1720005108666" duration="10182000" />
+      <workItem from="1720055366536" duration="2749000" />
+      <workItem from="1720058267507" duration="34823000" />
+      <workItem from="1720143119507" duration="35848000" />
+      <workItem from="1720228612376" duration="36575000" />
+      <workItem from="1720344567248" duration="5231000" />
+      <workItem from="1720401009250" duration="33981000" />
+      <workItem from="1720487212232" duration="31204000" />
+      <workItem from="1720533292380" duration="556000" />
+      <workItem from="1720574015841" duration="7898000" />
+      <workItem from="1720586280497" duration="28723000" />
+      <workItem from="1720660444583" duration="26638000" />
+      <workItem from="1720746517227" duration="41421000" />
+      <workItem from="1720834373987" duration="29551000" />
+      <workItem from="1720922408035" duration="10688000" />
+      <workItem from="1720940379203" duration="6567000" />
+      <workItem from="1720951620945" duration="371000" />
+      <workItem from="1720952006579" duration="20311000" />
+      <workItem from="1721008734673" duration="34277000" />
+      <workItem from="1721092861230" duration="38262000" />
+      <workItem from="1721180322629" duration="6797000" />
+      <workItem from="1721202402749" duration="1915000" />
+      <workItem from="1721212778462" duration="3919000" />
+      <workItem from="1721309033694" duration="267000" />
+      <workItem from="1721358782009" duration="2750000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="PID_Velocity_Left" />
+        <watch expression="PID_Velocity_Right" />
+        <watch expression="PID_Turn" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
