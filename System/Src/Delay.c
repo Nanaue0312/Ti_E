@@ -1,5 +1,4 @@
 #include "stm32f10x.h"
-#include "PID.h"
 
 //仿原子延时，不进入systic中断
 void delay_us(u32 nus) {
@@ -24,8 +23,6 @@ void delay_ms(u16 nms) {
     } while ((temp & 0x01) && (!(temp & (1 << 16))));//等待时间到达
     SysTick->CTRL = 0x00; //关闭计数器
     SysTick->VAL = 0X00; //清空计数器
-    PID_Reset(&PID_Velocity_Left);
-    PID_Reset(&PID_Velocity_Right);
 }
 
 //仿原子延时，不进入systic中断

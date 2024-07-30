@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "stm32f10x.h"
-#include "Car_USART.h"
+#include "Ti_USART.h"
 #include "cJSON.h"
 
 // 串口1
@@ -14,8 +14,8 @@ char DataBuffer2[255];
 uint8_t Data2 = 0;
 uint8_t RxFlag2 = 0;
 
-void Car_Serial1_Init() {
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1 | RCC_APB2Periph_GPIOA | RCC_APB2Periph_AFIO, ENABLE);
+void Serial1_Init() {
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1 | RCC_APB2Periph_GPIOB | RCC_APB2Periph_AFIO, ENABLE);
     GPIO_PinRemapConfig(GPIO_Remap_USART1, ENABLE);
     /*GPIO初始化*/
     GPIO_InitTypeDef GPIO_InitStructure;
@@ -56,7 +56,7 @@ void Car_Serial1_Init() {
     USART_Cmd(USART1, ENABLE);
 }
 
-void Car_Serial2_Init() {
+void Serial2_Init() {
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2, ENABLE);
     /*GPIO初始化*/
     GPIO_InitTypeDef GPIO_InitStructure;
@@ -109,7 +109,7 @@ void Serial_SendString(char *str) {
 }
 
 /*void parseData() {
-    cJsonData = cJSON_Parse(DataBuffer1);
+    cJsonData = cJSON_Parse(DataBuffer);
     // 速度环调试
     if ((cJsonValue = cJSON_GetObjectItem(cJsonData, "stv")) != NULL) {
         PID_Init(&pidMotorLeftSpeed, pidMotorLeftSpeed.kp, pidMotorLeftSpeed.ki, pidMotorLeftSpeed.kd,

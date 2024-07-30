@@ -17,9 +17,9 @@ extern char DataBuffer2[255];
 extern uint8_t Data2;
 extern uint8_t RxFlag2;
 
-void Car_Serial1_Init();
+void Serial1_Init();
 
-void Car_Serial2_Init();
+void Serial2_Init();
 
 void Serial_SendByte(uint8_t data);
 

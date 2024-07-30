@@ -53,7 +53,7 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(CORE/Inc System/Inc STM32F10x_FWLib/Inc Driver/Inc Hardware/Inc System/Inc Middleware/Inc Hardware/Inc/dmp)
+include_directories(CORE/Inc System/Inc STM32F10x_FWLib/Inc Driver/Inc Hardware/Inc System/Inc Middleware/Inc)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER)
 
