@@ -5,11 +5,14 @@
 #include "Ti_USART.h"
 #include "EXTIConfig.h"
 #include "Delay.h"
-#include "Piece.h"
+#include "LED.h"
 #include "Motor.h"
 #include "Ti_USART.h"
 #include "Magnet.h"
 #include "MaxiCam.h"
+#include "Board.h"
+
+int8_t id = 0, type = 1;
 
 int main(void) {
     // 初始化led
@@ -25,8 +28,9 @@ int main(void) {
     printf("Start\n");
     // 初始化外部中断
     EXTI_Config();
-    // Move_Control(30, 30, 0, 1500);
+    // Global_TIM();
     for (;;) {
+
     }
 }
 
@@ -37,15 +41,31 @@ int main(void) {
 void EXTI9_5_IRQHandler() {
     if (EXTI_GetITStatus(EXTI_Line8) == SET) {
         if (GPIO_ReadInputDataBit(GPIOC, K3) == SET) {
-            FreeChess();
+            // FreeChess();
+            id++;
+            if (id > 4) {
+                id = 0;
+            }
         }
         EXTI_ClearITPendingBit(EXTI_Line8);
     }
     if (EXTI_GetITStatus(EXTI_Line9) == SET) {
         if (GPIO_ReadInputDataBit(GPIOC, K4) == SET) {
-            SeizeChess();
+            type = -type;
+            // SeizeChess();
+            // Motor_Move(X_BIAS + 32 * X, Y_BIAS - 32 * Y, 0, 3000);
         }
         EXTI_ClearITPendingBit(EXTI_Line9);
+    }
+}
+
+void EXTI0_IRQHandler() {
+    if (EXTI_GetITStatus(EXTI_Line0) == SET) {
+        if (GPIO_ReadInputDataBit(GPIOA, K2) == RESET) {
+            // Motor_Move(X_BIAS + 32 * X, Y_BIAS - 32 * Y, 0, 3000);
+            Board_GotoChess(id, type);
+            EXTI_ClearITPendingBit(EXTI_Line0);
+        }
     }
 }
 
@@ -146,6 +166,7 @@ void USART2_IRQHandler() {
                 memset(DataBuffer1, 0, sizeof(DataBuffer2));
                 RxFlag2 = 0;
                 BufferIndex2 = 0;
+                DataCount++;
             }
         } else if (DataType == 1) {
             // 解析白子坐标
@@ -157,6 +178,7 @@ void USART2_IRQHandler() {
                 memset(DataBuffer1, 0, sizeof(DataBuffer2));
                 RxFlag2 = 0;
                 BufferIndex2 = 0;
+                DataCount++;
             }
         } else if (DataType == -1) {
             // 解析黑子坐标
@@ -168,6 +190,7 @@ void USART2_IRQHandler() {
                 memset(DataBuffer1, 0, sizeof(DataBuffer2));
                 RxFlag2 = 0;
                 BufferIndex2 = 0;
+                DataCount++;
             }
         }
     }

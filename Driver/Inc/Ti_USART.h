@@ -21,8 +21,10 @@ void Serial1_Init();
 
 void Serial2_Init();
 
-void Serial_SendByte(uint8_t data);
+void Serial1_SendByte(uint8_t data);
 
-void Serial_SendString(char *str);
+void Serial2_SendByte(uint8_t data);
+
+void Serial1_SendString(char *str);
 
 #endif

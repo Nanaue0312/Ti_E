@@ -20,7 +20,7 @@ void INTX_ENABLE(void) {
 // 重写printf底层函数
 __attribute__((weak)) int _write(int file, char *ptr, int len) {
     for (int i = 0; i < len; ++i) {
-        Serial_SendByte(ptr[i]);
+        Serial2_SendByte(ptr[i]);
     }
     return len;
 }

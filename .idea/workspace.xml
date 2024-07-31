@@ -27,15 +27,26 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11735f61-957a-4bed-bd12-72f1e7cb55d1" name="Changes" comment="Finish:Z轴吸附和释放棋子">
+    <list default="true" id="11735f61-957a-4bed-bd12-72f1e7cb55d1" name="Changes" comment="Finish:棋盘坐标解算">
+      <change afterPath="$PROJECT_DIR$/Hardware/Inc/Board.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hardware/Inc/LED.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hardware/Src/Board.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hardware/Src/LED.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver/Inc/Car_Global_TIM.h" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Inc/Car_Global_TIM.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver/Inc/EXTIConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Inc/EXTIConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver/Inc/Ti_USART.h" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Inc/Ti_USART.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver/Src/Car_Global_TIM.c" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Src/Car_Global_TIM.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver/Src/EXTIConfig.c" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Src/EXTIConfig.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Driver/Src/Ti_USART.c" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Src/Ti_USART.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hardware/Inc/MaxiCam.h" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/Inc/MaxiCam.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hardware/Inc/Motor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/Inc/Motor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/Inc/Piece.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Hardware/Src/MaxiCam.c" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/Src/MaxiCam.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hardware/Src/Motor.c" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/Src/Motor.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/Src/Piece.c" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/Src/Piece.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/Src/Piece.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/System/Src/sys.c" beforeDir="false" afterPath="$PROJECT_DIR$/System/Src/sys.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -922,6 +933,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Car_v2.elf" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" nameIsGenerated="true" PROGRAM_PARAMS="-f interface/stlink.cfg -f target/stm32f1x.cfg" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car_v2" TARGET_NAME="Car_v2.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="Car_v2" RUN_TARGET_NAME="Car_v2.elf">
       <custom-gdb-server version="1" gdb-connect="localhost:3333" executable="E:\Development\EmbeddedToolChain\OpenOCD\bin\openocd.exe" warmup-ms="0" download-type="UPDATED_ONLY" reset-cmd="monitor reset" reset-type="AFTER_DOWNLOAD">
         <debugger kind="GDB" isBundled="true" />
@@ -1003,7 +1019,8 @@
       <workItem from="1722341881426" duration="3877000" />
       <workItem from="1722345809815" duration="15547000" />
       <workItem from="1722371504102" duration="162000" />
-      <workItem from="1722379333375" duration="6153000" />
+      <workItem from="1722379333375" duration="13275000" />
+      <workItem from="1722402018722" duration="12850000" />
     </task>
     <task id="LOCAL-00001" summary="Finish:1-2题">
       <option name="closed" value="true" />
@@ -1021,7 +1038,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722371647250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finish:棋盘坐标解算">
+      <option name="closed" value="true" />
+      <created>1722389763881</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722389763881</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VCPKGProject">
@@ -1043,17 +1068,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish:1-2题" />
     <MESSAGE value="Finish:Z轴吸附和释放棋子" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish:Z轴吸附和释放棋子" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Src/main.c</url>
-          <line>65</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Finish:棋盘坐标解算" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish:棋盘坐标解算" />
   </component>
 </project>

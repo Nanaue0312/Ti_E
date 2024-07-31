@@ -97,14 +97,19 @@ void Serial2_Init() {
     USART_Cmd(USART2, ENABLE);
 }
 
-void Serial_SendByte(uint8_t data) {
+void Serial1_SendByte(uint8_t data) {
+    USART_SendData(USART1, data);
+    while (USART_GetFlagStatus(USART1, USART_FLAG_TXE) == RESET);
+}
+
+void Serial2_SendByte(uint8_t data) {
     USART_SendData(USART2, data);
     while (USART_GetFlagStatus(USART2, USART_FLAG_TXE) == RESET);
 }
 
-void Serial_SendString(char *str) {
+void Serial1_SendString(char *str) {
     for (int i = 0; *(str + i) != '\0'; i++) {
-        Serial_SendByte(*(str + i));
+        Serial1_SendByte(*(str + i));
     }
 }
 

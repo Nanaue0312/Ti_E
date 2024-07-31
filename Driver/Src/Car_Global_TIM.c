@@ -4,7 +4,7 @@
 #include "stm32f10x.h"
 #include "Car_Global_TIM.h"
 
-void Car_Global_TIM() {
+void Global_TIM() {
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_TIM1, ENABLE);
     TIM_TimeBaseInitTypeDef TIM_TimeBaseInitStructure;
     TIM_TimeBaseInitStructure.TIM_CounterMode = TIM_CounterMode_Up;
