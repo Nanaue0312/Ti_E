@@ -6,6 +6,7 @@
 #include "stdio.h"
 #include "string.h"
 #include "Delay.h"
+#include "Motor.h"
 
 uint8_t board[9];
 

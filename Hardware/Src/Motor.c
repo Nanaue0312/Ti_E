@@ -18,11 +18,11 @@ void Motor_Init() {
  * 抓取棋子
  */
 void SeizeChess() {
-    printf(Z_Down);
-    Delay_ms(500);
     Magnet_SeizeChess();
+    printf(Z_Down);
+    Delay_ms(200);
     printf(Z_Reset);
-    Delay_ms(500);
+    Delay_ms(200);
 }
 
 /**
@@ -30,8 +30,8 @@ void SeizeChess() {
  */
 void FreeChess() {
     printf(Z_Down);
-    Delay_ms(500);
+    Delay_ms(200);
     Magnet_FreeChess();
     printf(Z_Reset);
-    Delay_ms(500);
+    Delay_ms(200);
 }

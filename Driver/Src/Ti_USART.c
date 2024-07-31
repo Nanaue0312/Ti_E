@@ -98,8 +98,8 @@ void Serial2_Init() {
 }
 
 void Serial_SendByte(uint8_t data) {
-    USART_SendData(USART1, data);
-    while (USART_GetFlagStatus(USART1, USART_FLAG_TXE) == RESET);
+    USART_SendData(USART2, data);
+    while (USART_GetFlagStatus(USART2, USART_FLAG_TXE) == RESET);
 }
 
 void Serial_SendString(char *str) {

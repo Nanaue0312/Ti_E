@@ -9,6 +9,7 @@
 #include "Motor.h"
 #include "Ti_USART.h"
 #include "Magnet.h"
+#include "MaxiCam.h"
 
 int main(void) {
     // 初始化led
@@ -24,6 +25,7 @@ int main(void) {
     printf("Start\n");
     // 初始化外部中断
     EXTI_Config();
+    // Move_Control(30, 30, 0, 1500);
     for (;;) {
     }
 }
@@ -59,49 +61,47 @@ uint16_t getDataBytes(const char *buffer, size_t i) {
     return temp;
 }
 
-// K210数据解析
-void K210DataParse(const char *buffer, int16_t *output, size_t buffer_length) {
-    // 将每四个字节转换为浮点数
-    for (size_t i = 0; i < buffer_length; i += 2) {
-        // 通过类型转换将四个字节合成一个浮点数
-        uint16_t temp = getDataBytes(buffer, i);
-        int16_t value = *((int16_t *) &temp);
-        value = (int) 100 * value + 0.5;
-        value /= 100;
-        output[i / 2] = value; // 存入输出数组
+// 数据解析
+void DataParse(const char *buffer, int16_t output[][2], size_t buffer_length) {
+    for (size_t i = 0; i < buffer_length; i += 4) {
+        for (int j = 0; j < 2; ++j) {
+            uint16_t temp = getDataBytes(buffer, i + j * 2);
+            int16_t value = *((int16_t *) &temp);
+            output[i / 4][j] = value;
+        }
     }
 }
 
 void USART1_IRQHandler() {
     if (USART_GetITStatus(USART1, USART_IT_RXNE) == SET) {
         USART_ClearITPendingBit(USART1, USART_IT_RXNE);
-        Data1 = USART_ReceiveData(USART1);
-        // K210数据包解析
-        if (RxFlag1 == 0 && Data1 == 0x2C) {
-            RxFlag1 = 1;
-        } else if (RxFlag1 == 1 && Data1 == 0x12) {
-            RxFlag1 = 2;
-        } else if (RxFlag1 == 2 && Data1 == 0x5B) {
-            // 重置状态
-            RxFlag1 = 0;
-            // BufferIndex = 0;
-        } else if (RxFlag1 == 2) {
-            // 接收数据包数据段
-            DataBuffer1[BufferIndex1++] = Data1;
-        } else {
-            // 重置状态
-            RxFlag1 = 0;
-            // BufferIndex = 0;
-        }
-        // BufferIndex==24时数据接收完毕
-        if (BufferIndex1 >= 4) {
-            // 将字节数组转为K210浮点数据
-            // K210DataParse(DataBuffer1, K210_Datas1, BufferIndex1);
-            // K210_Val1 = K210_Datas1[1];
-            // memset(DataBuffer1, 0, sizeof(DataBuffer1));
-            RxFlag1 = 0;
-            BufferIndex1 = 0;
-        }
+        // Data1 = USART_ReceiveData(USART1);
+        // // K210数据包解析
+        // if (RxFlag1 == 0 && Data1 == 0x2C) {
+        //     RxFlag1 = 1;
+        // } else if (RxFlag1 == 1 && Data1 == 0x12) {
+        //     RxFlag1 = 2;
+        // } else if (RxFlag1 == 2 && Data1 == 0x5B) {
+        //     // 重置状态
+        //     RxFlag1 = 0;
+        //     // BufferIndex = 0;
+        // } else if (RxFlag1 == 2) {
+        //     // 接收数据包数据段
+        //     DataBuffer1[BufferIndex1++] = Data1;
+        // } else {
+        //     // 重置状态
+        //     RxFlag1 = 0;
+        //     // BufferIndex = 0;
+        // }
+        // // BufferIndex==24时数据接收完毕
+        // if (BufferIndex1 >= 4) {
+        //     // 将字节数组转为K210浮点数据
+        //     // K210DataParse(DataBuffer1, K210_Datas1, BufferIndex1);
+        //     // K210_Val1 = K210_Datas1[1];
+        //     // memset(DataBuffer1, 0, sizeof(DataBuffer1));
+        //     RxFlag1 = 0;
+        //     BufferIndex1 = 0;
+        // }
     }
 }
 
@@ -112,7 +112,17 @@ void USART2_IRQHandler() {
         // K210数据包解析
         if (RxFlag2 == 0 && Data2 == 0x2C) {
             RxFlag2 = 1;
-        } else if (RxFlag2 == 1 && Data2 == 0x12) {
+        } else if (RxFlag2 == 1) {
+            if (Data2 == 0x12) {
+                // 中心点坐标
+                DataType = 0;
+            } else if (Data2 == 0x13) {
+                DataType = -1;
+                // 黑子坐标
+            } else if (Data2 == 0x14) {
+                // 白子坐标
+                DataType = 1;
+            }
             RxFlag2 = 2;
         } else if (RxFlag2 == 2 && Data2 == 0x5B) {
             // 重置状态
@@ -124,16 +134,41 @@ void USART2_IRQHandler() {
         } else {
             // 重置状态
             RxFlag2 = 0;
-            // BufferIndex = 0;
-        }
-        // BufferIndex==24时数据接收完毕
-        if (BufferIndex2 >= 4) {
-            // 将字节数组转为K210浮点数据
-            // K210DataParse(DataBuffer2, K210_Datas2, BufferIndex2);
-            // K210_Val2 = K210_Datas2[1];
-            // memset(DataBuffer2, 0, sizeof(DataBuffer2));
-            RxFlag2 = 0;
             BufferIndex2 = 0;
+        }
+        if (DataType == 0) {
+            // 解析棋盘中心点坐标
+            if (BufferIndex2 >= 36) {
+                DataParse(DataBuffer2, Centers, BufferIndex2);
+                for (int i = 0; i < 9; ++i) {
+                    printf("Center %d:(%d,%d)\n", i, Centers[i][0], Centers[i][1]);
+                }
+                memset(DataBuffer1, 0, sizeof(DataBuffer2));
+                RxFlag2 = 0;
+                BufferIndex2 = 0;
+            }
+        } else if (DataType == 1) {
+            // 解析白子坐标
+            if (BufferIndex2 >= 20) {
+                DataParse(DataBuffer2, WhiteChess, BufferIndex2);
+                for (int i = 0; i < 5; ++i) {
+                    printf("WhiteChess %d:(%d,%d)\n", i, WhiteChess[i][0], WhiteChess[i][1]);
+                }
+                memset(DataBuffer1, 0, sizeof(DataBuffer2));
+                RxFlag2 = 0;
+                BufferIndex2 = 0;
+            }
+        } else if (DataType == -1) {
+            // 解析黑子坐标
+            if (BufferIndex2 >= 20) {
+                DataParse(DataBuffer2, BlackChess, BufferIndex2);
+                for (int i = 0; i < 5; ++i) {
+                    printf("BlackChess %d:(%d,%d)\n", i, BlackChess[i][0], BlackChess[i][1]);
+                }
+                memset(DataBuffer1, 0, sizeof(DataBuffer2));
+                RxFlag2 = 0;
+                BufferIndex2 = 0;
+            }
         }
     }
 }

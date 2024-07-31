@@ -4,8 +4,8 @@
 
 #ifndef CAR_V2_MOTOR_H
 #define CAR_V2_MOTOR_H
-#define Z_Down "G01 Z15F1500\n"
-#define Z_Reset "G01 Z0F2000\n"
+#define Z_Down "G01 Z15F5000\n"
+#define Z_Reset "G01 Z0F5000\n"
 #define Move(x, y, z, t) sprintf(cmd,"G01 X%dY%dZ%dF%d\n",x,y,z,t)
 
 void Motor_Init();
