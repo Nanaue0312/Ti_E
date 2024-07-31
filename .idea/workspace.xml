@@ -27,7 +27,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11735f61-957a-4bed-bd12-72f1e7cb55d1" name="Changes" comment="Finish:棋盘坐标解算">
+    <list default="true" id="11735f61-957a-4bed-bd12-72f1e7cb55d1" name="Changes" comment="Finish:二维滑块驱动">
       <change afterPath="$PROJECT_DIR$/Hardware/Inc/Board.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Hardware/Inc/LED.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Hardware/Src/Board.c" afterDir="false" />
@@ -1020,7 +1020,7 @@
       <workItem from="1722345809815" duration="15547000" />
       <workItem from="1722371504102" duration="162000" />
       <workItem from="1722379333375" duration="13275000" />
-      <workItem from="1722402018722" duration="12850000" />
+      <workItem from="1722402018722" duration="13170000" />
     </task>
     <task id="LOCAL-00001" summary="Finish:1-2题">
       <option name="closed" value="true" />
@@ -1046,7 +1046,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722389763881</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finish:二维滑块驱动">
+      <option name="closed" value="true" />
+      <created>1722416284028</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722416284028</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VCPKGProject">
@@ -1069,6 +1077,7 @@
     <MESSAGE value="Finish:1-2题" />
     <MESSAGE value="Finish:Z轴吸附和释放棋子" />
     <MESSAGE value="Finish:棋盘坐标解算" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish:棋盘坐标解算" />
+    <MESSAGE value="Finish:二维滑块驱动" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish:二维滑块驱动" />
   </component>
 </project>
